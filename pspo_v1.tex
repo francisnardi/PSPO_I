@@ -1,0 +1,389 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{turqusnumbers}{rgb}{0.17,0.57,0.69}
+\definecolor{redstrings}{rgb}{0.5,0,0}
+
+\lstdefinelanguage{FSharp}
+		{morekeywords={let, new, match, with, rec, open, module, namespace, type, of, member, and, for, in, do, begin, end, fun, function, try, mutable, if, then, else},
+    keywordstyle=\color{bluekeywords},
+    sensitive=false,
+    morecomment=[l][\color{greencomments}]{///},
+    morecomment=[l][\color{greencomments}]{//},
+    morecomment=[s][\color{greencomments}]{{(*}{*)}},
+    morestring=[b]",
+    stringstyle=\color{redstrings}
+    }
+
+\begin{document}
+
+\title{\bf{Preparation Quiz for the PSPO I Certification}}
+\author{Francisco Jos\'e Nardi Filho}
+\maketitle
+
+\tableofcontents
+\newpage
+
+% section
+\section{Functional programming}
+Building software by composing pure functions, avoiding shared state, mutable data, and side effects.
+\subsection{Pure functions}
+Pure functions are deterministic (return of constant output for a given input). They have no side effects.
+\subsection{Side effects}
+Side effects are changes in the system via mutable state, database updates, web requests, IO, etc.
+
+% section
+\section{.fsx vs .fs files}
+There are different compiler warnings according to each of the two files.
+\begin{itemize}
+    \item .fsx: This file extension is commonly used for scripts and interactive use of F\#.
+    \item .fs: This file extension is commonly used for a normal source of F\# files.
+\end{itemize}
+
+
+
+% section
+\section{Type annotations}
+\subsubsection*{Correct}
+\lstset{language=FSharp}
+\begin{lstlisting}
+    // F# Interactive 
+    // CodeLens extension
+    let myOne = 1              // int
+    let myTwo = 2              // int
+\end{lstlisting}
+\subsubsection*{Incorrect}
+\lstset{language=FSharp}
+\begin{lstlisting}
+    // F# Interactive 
+    // CodeLens extension
+    let myOne = 1.0            // ???
+    let myTwo = 2              // int
+\end{lstlisting}
+\subsubsection*{Incorrect}
+\lstset{language=FSharp}
+\begin{lstlisting}
+    // F# Interactive 
+    // CodeLens extension
+    let myOne: double = 1      // ???
+    let myTwo = 2              // int
+\end{lstlisting}
+\subsubsection*{Correct}
+\lstset{language=FSharp}
+\begin{lstlisting}
+    // F# Interactive 
+    // CodeLens extension
+    let myOne: double = 1.0    // double 
+    let myTwo = 2.0            // float
+\end{lstlisting}
+
+
+
+% section
+\section{Primitives}
+\subsubsection*{Example 1}
+\lstset{language=FSharp}
+\begin{lstlisting}
+    let myOne = 1
+    let hello = "Hello"
+    let letterA = 'a'
+\end{lstlisting}
+The primitive types will be the same for all languages in the .NET Core environment.
+\subsection{Mutable/Assignment}
+\subsubsection*{Example 2}
+\begin{lstlisting}
+    let isEnabled = true
+    isEnabled = false       // comparative clause
+    isEnabled <- false      // assignment clause
+\end{lstlisting}
+Values are immutable by default, so the previous clauses will not work.
+\subsubsection*{Example 3}
+\begin{lstlisting}
+    let mutable isEnabled = true
+    isEnabled = false       // comparative clause
+    isEnabled <- false      // assignment clause
+\end{lstlisting}
+To change the \textit{isEnabled} value, we need to declare it as \textit{mutable}.
+
+% section
+\section{Expressions vs Statements}
+\begin{itemize}
+    \item Functions are expressions.
+    \item Expressions are values.
+    \item Every new line is a new expression.
+\end{itemize}
+
+% section
+\section{Functions}
+\begin{lstlisting}
+    // int -> int -> int
+    let add x y = x + y 
+\end{lstlisting}
+The return is automatically considered to be the last line of a function.
+
+\subsection{Lambda expressions}
+\begin{lstlisting}
+    // int -> int -> int
+    let add' = fun x y -> x + y
+\end{lstlisting}
+
+\subsection{Currying/Baking-In }
+\begin{lstlisting}
+    // int -> int -> int
+    let add'' x = fun y -> x + y
+\end{lstlisting}
+
+Currying is a function that returns another, which in turn produces a new one until it returns a value.
+
+\begin{lstlisting}
+    // x is an early given parameter
+    let add'' x =
+        // it produces a new function,
+        // which takes y as another parameter
+        fun y ->
+            // the last line is the return,
+            // a function that sums both parameters
+            x + y
+\end{lstlisting}
+
+\textbf{In F\#, all functions are curried.}
+
+% section
+\section{Partial Application}
+\begin{lstlisting}
+    // int -> int
+    let add x y = x + y
+    let add5' = add 5
+\end{lstlisting}
+
+% section
+\section{Function composition}
+\begin{lstlisting}
+    let add3 number = number + 3.
+    let times2 number = number * 2.
+    let pow2 number = number ** 2.
+\end{lstlisting}
+
+
+% section
+\section{Pipe operator}
+\begin{lstlisting}
+    // point free code 
+    let add3 = ( + ) 3.
+    let times2 = ( * ) 2.
+    let pow2 number = number ** 2.
+    
+    let operation' number =
+        number
+        |> add3
+        |> times2
+        |> pow2
+    
+    operation' 2.
+    
+(*
+    val add3 : (float -> float)
+    val times2 : (float -> float)
+    val pow2 : number:float -> float
+    val operation' : number:float -> float
+    val it : float = 100.0
+*)
+\end{lstlisting}
+
+% section
+\section{Composition operator}
+\begin{lstlisting}
+    let add3 = ( + ) 3.
+    let times2 = ( * ) 2.
+    let pow2 number = number ** 2.
+    
+    let operation'' =
+        add3
+        >> times2
+        >> pow2
+    
+    operation'' 2.
+\end{lstlisting}
+
+% section
+\section{Defining new operators}
+\begin{lstlisting}
+    let (>>) f g =
+        fun x ->
+            x
+            |> f
+            |> g
+\end{lstlisting}
+
+% section
+\section{Hello World/Main function}
+\subsubsection*{Example 1}
+\begin{lstlisting}
+module Arithmetic =
+    module public Addition =
+        let add x y = x + y
+
+open Arithmetic
+
+let program =
+    Addition.add 5 2
+\end{lstlisting}
+
+\subsubsection*{Example 2}
+\begin{lstlisting}
+module Arithmetic =
+    module public Addition =
+        let add x y = x + y
+
+open Arithmetic
+
+let program =
+    Addition.add 5 2
+\end{lstlisting}
+
+% section
+\section{Unit}
+\begin{lstlisting}
+open System
+open System.Threading
+
+[<EntryPoint>]
+let main argv =
+
+    printfn "How old are you?"
+    let year = Console.ReadLine()
+    printfn "You are %s years old" year
+
+    let currentTime() =
+        DateTime.Now
+
+    currentTime ()
+        |> printfn "Now is %O"
+
+    Thread.Sleep 2000
+
+    currentTime ()
+        |> printfn "Now is %O"
+
+    0
+\end{lstlisting}
+
+% section
+\section{Printing to Console}
+\begin{lstlisting}
+    open System
+
+    // Record type
+    // Tuple
+    // Anonymous record
+    
+    type Day = {DayOfTheMonth: int; Month: int}
+    type Person = {Name: string; Age: int}
+    
+    let day = { DayOfTheMonth = 26; Month = 03}
+    let ben = { Name = "Ben"; Age = 26 }
+    
+    printfn "%i-%i-2021" day.DayOfTheMonth day.Month
+    printfn "%s %i" ben.Name ben.Age    
+\end{lstlisting}
+
+% section
+\section{Pattern Matching}
+\begin{lstlisting}
+    let yesOrNo bool =
+        match bool with
+        | true -> "Yes"
+        | false -> "No"
+
+
+    // point free code
+    let yesOrNo' = function
+        | true -> "Yes"
+        | false -> "No"
+
+    // point free code
+    let isEven = function
+        | n when n % 2 = 0 -> true
+        | _ -> false
+\end{lstlisting}
+
+% section
+\section{The "function" keyword}
+\begin{lstlisting}
+    let isOne = function
+        | 1 -> true
+        | _ -> false
+
+    let isOne' number =
+        number = 1
+
+    let isOne'' = 
+        (=) 1
+\end{lstlisting}
+
+% section
+\section{Pattern matching with let and fun}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Option type}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Domain Errors vs Exceptions}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Generics and SRTP}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Inline keyword}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Type members}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Collections}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Arrays}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Lists}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Collection libraries}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{List.head}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Recursion / List.iter}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{List.map}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{List.fold}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{List.reduce}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{List.sum}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Bind}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Exception handling}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Results / Error Modeling}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% section
+\section{Outtro}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+\end{document}
