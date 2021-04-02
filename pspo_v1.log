@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2021.3.11)  1 APR 2021 09:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2021.3.11)  2 APR 2021 04:14
 entering extended mode
 **c:/Users/Francisco/Desktop/PSPO_I/pspo_v1.tex
 (c:/Users/Francisco/Desktop/PSPO_I/pspo_v1.tex
@@ -124,21 +124,25 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+) (c:/Users\Francisco\Desktop\PSPO_I\pspo_v1.toc)
+\tf@toc=\write3
+\openout3 = `pspo_v1.toc'.
 
-{C:/Users/Francisco/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (c:/Users\Francisco\Desktop\PSPO_I\pspo_v1.aux) ) 
+ [1
+
+{C:/Users/Francisco/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (c:/Users\Francisco\Desktop\PSPO_I\exame_v0.tex [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]) [19] (c:/Users\Francisco\Desktop\PSPO_I\pspo_v1.aux) ) 
 Here is how much of TeX's memory you used:
- 3214 strings out of 479799
- 45726 string characters out of 2879587
- 313897 words of memory out of 3000000
- 20210 multiletter control sequences out of 15000+200000
- 543888 words of font info for 61 fonts, out of 3000000 for 9000
+ 3222 strings out of 479799
+ 45937 string characters out of 2879587
+ 318899 words of memory out of 3000000
+ 20212 multiletter control sequences out of 15000+200000
+ 543490 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,7n,59p,217b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on c:/Users\Francisco\Desktop\PSPO_I\pspo_v1.pdf (1 page, 67710 bytes).
+ 51i,7n,59p,451b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on c:/Users\Francisco\Desktop\PSPO_I\pspo_v1.pdf (19 pages, 95349 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
