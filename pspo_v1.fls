@@ -1,190 +1,93 @@
-PWD c:\Users\Francisco\Desktop\PSPO_I
-INPUT C:\Users\Francisco\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.tex
-OUTPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.log
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\pifont.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\pifont.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\pifont.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\pifont.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\pifont.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\pifont.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\pifont.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\pifont.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\pifont.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\pifont.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\upzd.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\upzd.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\upzd.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\upzd.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\upsy.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\upsy.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\upsy.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\upsy.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.aux
-INPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.aux
-INPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.aux
-OUTPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.aux
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.toc
-INPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.toc
-INPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.toc
-OUTPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.pdf
-INPUT C:\Users\Francisco\AppData\Local\MiKTeX\pdftex\config\pdftex.map
-INPUT c:\Users\Francisco\Desktop\PSPO_I\exame_v0.tex
-INPUT c:\Users\Francisco\Desktop\PSPO_I\exame_v0.tex
-INPUT c:\Users\Francisco\Desktop\PSPO_I\exame_v0.tex
-INPUT c:\Users\Francisco\Desktop\PSPO_I\exame_v0.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT c:\Users\Francisco\Desktop\PSPO_I\pspo_v1.aux
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+PWD /home/fran/source/repo/PSPO_I
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/fran/source/repo/PSPO_I/pspo_v1.tex
+OUTPUT /home/fran/source/repo/PSPO_I/pspo_v1.log
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /home/fran/source/repo/PSPO_I/pspo_v1.aux
+INPUT /home/fran/source/repo/PSPO_I/pspo_v1.aux
+OUTPUT /home/fran/source/repo/PSPO_I/pspo_v1.aux
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /home/fran/source/repo/PSPO_I/pspo_v1.toc
+INPUT /home/fran/source/repo/PSPO_I/pspo_v1.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT /home/fran/source/repo/PSPO_I/pspo_v1.toc
+OUTPUT /home/fran/source/repo/PSPO_I/pspo_v1.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /home/fran/source/repo/PSPO_I/exame_v0.tex
+INPUT /home/fran/source/repo/PSPO_I/exame_v0.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /home/fran/source/repo/PSPO_I/pspo_v1.aux
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
