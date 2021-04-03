@@ -1,16 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 def raspar_tela(url):
     
     options = webdriver.ChromeOptions()
     options.add_argument('--ignore-certificate-errors')
     options.add_argument('--incognito')
     options.add_argument('--headless')
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome(executable_path=binary_path, options=options)
    
     driver.get(url)
     page = driver.page_source
@@ -18,10 +15,6 @@ def raspar_tela(url):
     driver.quit()
     
     return soup_lxml
-
-
-# In[ ]:
-
 
 def gerar_exame(soup_lxml):
 
@@ -80,10 +73,6 @@ def gerar_exame(soup_lxml):
 
     return [prova, gabarito]
 
-
-# In[ ]:
-
-
 def salvar_arquivos(gerados):
 
     with open('exame_v0.tex', 'w') as file:  # Use file to refer to the file object
@@ -92,11 +81,9 @@ def salvar_arquivos(gerados):
     with open('asw_key_v0.tex', 'w') as file:  # Use file to refer to the file object
         file.write(gerados[1])
 
-
-# In[ ]:
-
 import os
 import time
+from chromedriver_py import binary_path
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
