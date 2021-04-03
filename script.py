@@ -10,7 +10,7 @@ def raspar_tela(url):
     options.add_argument('--ignore-certificate-errors')
     options.add_argument('--incognito')
     options.add_argument('--headless')
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(options=options)
    
     driver.get(url)
     page = driver.page_source
@@ -97,7 +97,6 @@ def salvar_arquivos(gerados):
 
 import os
 import time
-import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
@@ -110,3 +109,4 @@ def main():
 if __name__ == "__main__":
     main()
     os.system("pdflatex pspo_q1.tex")
+    os.system("rm -rf asw_key_v0.tex exame_v0.tex *.aux *.log")
