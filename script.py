@@ -141,7 +141,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-    os.system("pdflatex v1.tex")
-    os.system("pdflatex v2.tex")
-    os.system("pdflatex v3.tex")
+    os.system("pdflatex pspo_q1.tex")
     os.system("rm -rf asw_key_v0.tex exame_v0.tex shrt_asw_key_v0.tex *.aux *.log *.fls *.fdb_*")
