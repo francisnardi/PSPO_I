@@ -73,7 +73,7 @@ def gerar_exame(soup_lxml):
 
     return [prova, gabarito]
 
-def salvar_arquivos(gerados):
+def salvar_arquivos(gerados, gabarito):
 
     with open('exame_v0.tex', 'w') as file:  # Use file to refer to the file object
         file.write(gerados[0])
@@ -81,19 +81,53 @@ def salvar_arquivos(gerados):
     with open('asw_key_v0.tex', 'w') as file:  # Use file to refer to the file object
         file.write(gerados[1])
 
+    with open('shrt_asw_key_v0.tex', 'w') as file:  # Use file to refer to the file object
+        file.write(gabarito)
+
+
+def gerar_gabarito(lxml, arquivo_gabarito):
+    with open(arquivo_gabarito) as json_file:
+        data = json.load(json_file)
+
+    wpProQuiz_question_text = lxml.find_all(class_='wpProQuiz_question_text')
+    perguntas = [(e.text).strip() for e in wpProQuiz_question_text]
+        
+    letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+    gabarito_resumido = ""
+    count = 1
+
+    gabarito_resumido += '\\begin{enumerate}\n'
+    for element in data:
+        gabarito_resumido += "\t% question " + str(count) + "\n\t\\item " + str(perguntas[count-1]) + "\n\n\t"
+        gabarito_binario = data[element]['correct']
+        for i in range(len(gabarito_binario)):
+            if (gabarito_binario[i] == 1):
+                gabarito_resumido += " " + str(letras[i]) + ", "
+        gabarito_resumido = gabarito_resumido[:-2]
+        gabarito_resumido += "\n\n"
+        count += 1
+    gabarito_resumido += '\\end{enumerate}'
+
+    gbrs = bytes(gabarito_resumido, 'utf-8').decode('utf-8', 'ignore')
+
+    return gbrs
+
 import os
 import time
+import json
 from chromedriver_py import binary_path
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
 def main():
     url = "https://mlapshin.com/index.php/scrum-quizzes/po-learning-mode"
+    arquivo_gabarito = "gabarito.json"
     lxml = raspar_tela(url)
     ger = gerar_exame(lxml)
-    salvar_arquivos(ger)
+    gbrt = gerar_gabarito(lxml, arquivo_gabarito)
+    salvar_arquivos(ger, gbrt)
 
 if __name__ == "__main__":
     main()
     os.system("pdflatex pspo_q1.tex")
-    os.system("rm -rf asw_key_v0.tex exame_v0.tex *.aux *.log")
+    os.system("rm -rf asw_key_v0.tex exame_v0.tex shrt_asw_key_v0.tex *.aux *.log *.fls *.fdb_*")
