@@ -2,7 +2,7 @@
 ## How to use it
 1. Clone the repository
 ``` bash
-git clone https://github.com/francisnardi/PSPO_I.git
+git clone https://github.com/francisnardi/pspo1.git
 ```
 2. Open the folder
 ``` bash
