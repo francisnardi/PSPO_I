@@ -6,7 +6,7 @@ git clone https://github.com/francisnardi/pspo1.git
 ```
 2. Open the folder
 ``` bash
-cd PSPO_I
+cd pspo1
 ```
 3. Install the required libs
 ``` bash
